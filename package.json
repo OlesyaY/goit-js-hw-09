@@ -1,16 +1,19 @@
 {
   "homepage": "https://olesyay.github.io/goit-js-hw-09/",
   "scripts": {
+    "dev": "parcel serve src/*.html --public-url /goit-js-hw-09/",
     "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
+  "dependencies": {
+    "flatpickr": "4.6.13",
+    "modern-normalize": "1.1.0",
+    "notiflix": "^3.2.5"
+  },
   "devDependencies": {
-    "@parcel/css": "^1.13.1",
+    "@parcel/css": "1.14.0",
     "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.7.0",
+    "parcel": "2.7.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
-  },
-  "dependencies": {
-    "modern-normalize": "^1.1.0"
   }
 }
