@@ -24,8 +24,6 @@ const handleSubmitForm = event => {
     elements: { delay, step, amount },
   } = event.currentTarget;
 
-  console.log(delay.value, step.value, amount.value);
-
   let delayValue = Number.parseInt(delay.value);
 
   for (let i = 1; i <= amount.value; i++) {
