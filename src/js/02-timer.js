@@ -43,6 +43,8 @@ const options = {
       startBtn.setAttribute('disabled', true);
 
       Notify.failure('Please choose a date in the future');
+
+      return;
     }
 
     startBtn.removeAttribute('disabled');
